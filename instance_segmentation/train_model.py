@@ -60,7 +60,7 @@ class AugmentImageDataset(datasets.DatasetFolder):
                 self.objects.append([image, folder_name])
 
         for image_name in os.listdir(back_dir):
-            image = to_img(read_image(os.path.join(back_dir, image_name)))
+            image = F.to_pil_image(read_image(os.path.join(back_dir, image_name)))
             self.backgrounds.append(image)
 
     def __len__(self):
@@ -80,12 +80,12 @@ class AugmentImageDataset(datasets.DatasetFolder):
         while len(busy_places) < objects_per_image and itr < objects_per_image * 3:
             itr += 1
             object = objects[randrange(len(self.objects))]
-            object_image = to_img(clean_background(np.array(object[0])))
+            object_image = F.to_pil_image(clean_background(np.array(object[0])))
 
             if self.transform_object is not None:
                 object_image = self.transform_object(object_image)
 
-            mask_background = to_img(np.zeros((back.size[1], back.size[0], 1)))
+            mask_background = F.to_pil_image(np.zeros((back.size[1], back.size[0], 1)))
             pos_x = randrange(0, back.size[0] - object_image.size[0])
             pos_y = randrange(0, back.size[1] - object_image.size[1])
             center_dot = ((pos_x + object_image.size[0]) // 2, (pos_y + object_image.size[1]) // 2)
@@ -256,10 +256,7 @@ if __name__ == '__main__':
     image_save_dir = 'Save/image_v2'
 
     #pollen_classes = [folder for folder in os.listdir(pollen_dir) if folder[0] != '.']
-    num_classes = 2  # 1 class (person) + background
-
-    # tensor->image transform function
-    to_img = transforms.ToPILImage()
+    num_classes = 2  # pollen as one class + background (noise)
     
     # synthetic dataset definition
     f_d = AugmentImageDataset(pollen_dir, noise_dir, package=5, back_usages=2, objects_per_image=(1, 5), transform=get_transform(True),
