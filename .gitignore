@@ -158,3 +158,1576 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+Data/.DS_Store
+Data/Noise_40X/Image_0.jpg
+Data/Noise_40X/Image_1.jpg
+Data/Noise_40X/Image_2.jpg
+Data/Noise_40X/Image_3.jpg
+Data/Noise_40X/Image_4.jpg
+Data/Noise_40X/Image_5.jpg
+Data/Noise_40X/Image_6.jpg
+Data/Noise_40X/Image_7.jpg
+Data/Noise_40X/Image_8.jpg
+Data/Noise_40X/Image_9.jpg
+Data/Noise_40X/Image_10.jpg
+Data/Noise_40X/Image_11.jpg
+Data/Noise_40X/Image_12.jpg
+Data/Noise_40X/Image_13.jpg
+Data/Noise_40X/Image_14.jpg
+Data/Noise_40X/Image_15.jpg
+Data/Noise_40X/Image_16.jpg
+Data/Noise_40X/Image_17.jpg
+Data/Noise_40X/Image_18.jpg
+Data/Noise_40X/Image_19.jpg
+Data/Noise_40X/Image_20.jpg
+Data/Noise_40X/Image_21.jpg
+Data/Noise_40X/Image_22.jpg
+Data/Noise_40X/Image_23.jpg
+Data/Noise_40X/Image_24.jpg
+Data/Noise_40X/Image_25.jpg
+Data/Noise_40X/Image_26.jpg
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (1)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (1)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (3)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (3)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (4)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (5)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (5)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (5)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (5)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_11.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (8)_12.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (9)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (9)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (9)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (9)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (10)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (14)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (14)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (14)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (14)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (14)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (14)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (15)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (15)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (15)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (15)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (15)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (15)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (16)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (17)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (18)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (19)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (20)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (20)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (21)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (21)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (24)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (24)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (24)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (24)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (26)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (26)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (26)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (26)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (26)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (26)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (29)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (29)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (29)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (29)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (30)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (31)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (31)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (31)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (32)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (33)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (35)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (36)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (37)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (37)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (37)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (38)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (38)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (38)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (39)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (39)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (39)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (40)_11.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (41)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (42)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (43)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (43)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (43)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (44)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (44)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (44)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (44)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (44)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (44)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (45)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (46)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_6.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_7.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_8.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_9.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (47)_10.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (48)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (49)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (49)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (49)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (49)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (50)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (50)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (50)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (50)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (50)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (51)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (51)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (51)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (52)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (52)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (52)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (52)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (52)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (52)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (53)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (53)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (53)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (53)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (53)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (53)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (54)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (55)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (56)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (56)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (56)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (56)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (56)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (56)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (57)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (57)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (57)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (57)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (57)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (57)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (58)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (58)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (59)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (59)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (60)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (61)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (62)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (63)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (64)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (65)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (66)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (66)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (66)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (66)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (67)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (67)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (67)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (67)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (67)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (68)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (68)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (68)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (68)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (68)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (69)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (69)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (69)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (70)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (71)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (71)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (72)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (73)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (73)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2904)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2904)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2905)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2906)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2907)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2908)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2908)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2908)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2908)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2909)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2909)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2909)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2909)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2909)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2910)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2910)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2910)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2910)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2910)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2910)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2911)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2911)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2913)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2914)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2915)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2915)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2916)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2916)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2916)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2917)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2917)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2917)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2917)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2918)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2919)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2919)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2920)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2920)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2921)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2922)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2926)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2926)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2927)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2927)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2927)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2927)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2928)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2928)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2929)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2929)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2930)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2931)_2.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2931)_3.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2931)_4.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2931)_5.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2932)_0.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2932)_1.png
+Data/pollen_dataset_2024_05_08_objects/Acer/Acer_40X (2933)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (9)_1.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (10)_1.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (10)_3.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (13)_3.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (14)_1.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (14)_8.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (14)_9.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (15)_1.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Alnus/Alnus (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (1)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (1)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (1)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (1)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (2)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (3)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (4)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (4)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (4)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (4)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (4)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (4)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (4)_7.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (5)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (5)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (5)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (7)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (7)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (7)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (7)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (7)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (8)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (8)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (8)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (8)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (9)_7.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (10)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (11)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (11)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (11)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (11)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (12)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (12)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (12)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (13)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (13)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (14)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (14)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (15)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (15)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (15)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (16)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (16)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (16)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (16)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (16)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (17)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (17)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (17)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (17)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (17)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (18)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (18)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (19)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (19)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (19)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (19)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (19)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (21)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (21)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (22)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (22)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (22)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (22)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (22)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (23)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (24)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (24)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (24)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (24)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (25)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (25)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (25)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (26)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (26)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (26)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (26)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (26)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (27)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (27)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (27)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (27)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (27)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (28)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (28)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (28)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (28)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (29)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (29)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (29)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (29)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (29)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (29)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (29)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_7.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_8.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_9.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_10.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_11.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_12.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_13.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (31)_14.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (32)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (32)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (32)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (32)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (33)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (33)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (33)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (34)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (34)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (34)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (34)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (35)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (35)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (35)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (36)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (36)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (37)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (37)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (37)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (38)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (38)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (38)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (38)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (39)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (39)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (39)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (39)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (39)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (40)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (40)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_6.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (41)_7.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (42)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (42)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (42)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (42)_4.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (42)_5.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (43)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (44)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (44)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (45)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (45)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (46)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (47)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (47)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (48)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (49)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (49)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (49)_3.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (50)_0.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (50)_1.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (50)_2.png
+Data/pollen_dataset_2024_05_08_objects/Betula/Betula_40X (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (1)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (1)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (1)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (3)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (3)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (3)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (4)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (4)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (4)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (5)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (5)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (6)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (6)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (7)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (7)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (8)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (9)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (9)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (10)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (10)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (12)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (12)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (12)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (13)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (14)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (16)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (17)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (17)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (18)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (18)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (19)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (19)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (19)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (20)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (20)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (20)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (21)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (21)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (21)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (22)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (23)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (23)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (24)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (24)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (25)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (25)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (26)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (26)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (27)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (27)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (29)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (29)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (30)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (31)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (31)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (32)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (32)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (32)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (36)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (36)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (37)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (37)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (38)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (39)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (39)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (39)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (40)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (40)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (41)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (43)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (43)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (43)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (44)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (44)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (45)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (45)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (45)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (46)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_5.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_6.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (47)_7.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_6.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_7.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (48)_8.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (49)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (49)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (49)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (49)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (50)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (50)_2.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (50)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (50)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (50)_5.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (51)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (51)_3.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (51)_4.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (52)_0.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (52)_1.png
+Data/pollen_dataset_2024_05_08_objects/Corylus/Corylus (53)_3.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (1)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (1)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (2)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (2)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (4)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (4)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (17)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (25)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (27)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (27)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (29)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (31)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (37)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (38)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (39)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (39)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (40)_3.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (40)_4.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (43)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (43)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (43)_2.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (43)_6.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (43)_7.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (44)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (46)_2.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (48)_1.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (50)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (52)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (53)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (54)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (55)_0.png
+Data/pollen_dataset_2024_05_08_objects/Pinus/Pinus_40X (57)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (2)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (2)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (2)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (2)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (2)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (2)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (2)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (3)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (3)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (3)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (3)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (5)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (5)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (5)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (5)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_8.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (6)_9.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (7)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (7)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (7)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (7)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (7)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (7)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (7)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (8)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (8)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (8)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (8)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (11)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (20)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (25)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (26)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (26)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (26)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (27)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (29)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (31)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (32)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (33)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (34)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (34)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (35)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (36)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (36)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (36)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (37)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (37)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (37)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (38)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (38)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (38)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (39)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (39)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (39)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (39)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (39)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (39)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (40)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (42)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (43)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (43)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (44)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (44)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (44)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (45)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (45)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (45)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_8.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_9.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (47)_10.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (48)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (48)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (48)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (49)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (49)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (49)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (49)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (50)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_8.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_9.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (51)_11.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (52)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (52)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (52)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (52)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (52)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (52)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_8.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_9.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (53)_12.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_8.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_9.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (54)_10.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (55)_8.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_8.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (56)_9.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_5.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_6.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_7.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (57)_10.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (58)_0.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (58)_1.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (58)_2.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (58)_3.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (58)_4.png
+Data/pollen_dataset_2024_05_08_objects/Populus tremula/Populus_tremula (58)_5.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (1)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (2)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (4)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (5)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (6)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (6)_2.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (9)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (10)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (12)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (12)_2.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (12)_3.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (14)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (18)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (20)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (21)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (22)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (23)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (26)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (27)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (27)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (28)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (28)_2.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (28)_3.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (29)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (31)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (32)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (32)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (32)_2.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (33)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (33)_2.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (33)_3.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (34)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (36)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (36)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (37)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (37)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (37)_2.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (38)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (39)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (39)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (40)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (41)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (41)_2.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (43)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (44)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (45)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (45)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (47)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (48)_1.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (50)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (52)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (53)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (54)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (55)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (56)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (57)_0.png
+Data/pollen_dataset_2024_05_08_objects/Quercus/Quercus_40X (58)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (1)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (1)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (1)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (1)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (2)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (2)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (2)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (2)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (2)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (2)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (3)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (4)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (5)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (5)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (6)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (7)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (7)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (8)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (9)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (9)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (10)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (10)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (10)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (10)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (10)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (10)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (11)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (11)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (12)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (12)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (13)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (13)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (14)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (14)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (14)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (14)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (15)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (16)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (17)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (19)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (19)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (20)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (21)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (22)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (22)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (23)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (23)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (23)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (27)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (27)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (28)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (29)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (30)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (30)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (31)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (31)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (31)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (32)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (32)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (32)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (32)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (32)_7.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (32)_8.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (33)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (33)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (33)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (33)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (33)_9.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (33)_10.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_7.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (34)_8.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (35)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (35)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (35)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (36)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (36)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (36)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (37)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (40)_7.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (41)_7.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (43)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (43)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (43)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (43)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (44)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (44)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (44)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (45)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (45)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (45)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (47)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (48)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (48)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (49)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (49)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (49)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (49)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (49)_7.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (49)_8.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (50)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (51)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (51)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (51)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (52)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (52)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (52)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (52)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (53)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (54)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (55)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (55)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (55)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (56)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (56)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (56)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (57)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (57)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (57)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (58)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (58)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (59)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (60)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (60)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (60)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (60)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (60)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (60)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (60)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (62)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (62)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (62)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (62)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (63)_7.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (64)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (64)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (64)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (64)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (66)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (66)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (66)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (66)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (67)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (67)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (67)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (68)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (68)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (68)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (69)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (69)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (69)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (70)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_5.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_6.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (72)_8.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (73)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (73)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (73)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (73)_3.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (73)_4.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (74)_0.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (74)_1.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (74)_2.png
+Data/pollen_dataset_2024_05_08_objects/Salix/Salix (74)_3.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (1)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (2)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (3)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (4)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (5)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (6)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (7)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (8)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (8)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (8)_2.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (8)_3.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (9)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (10)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (11)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (12)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (12)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (13)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (14)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (15)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (15)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (16)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (16)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (17)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (18)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (19)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (20)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (20)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (21)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (21)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (22)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (22)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (23)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (23)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (24)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (24)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (25)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (26)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (27)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (27)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (28)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (28)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (29)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (29)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (30)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (30)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (31)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (32)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (32)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (32)_2.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (33)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (34)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (35)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (36)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (37)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (38)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (39)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (39)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (40)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (40)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (41)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (42)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (43)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (44)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (45)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (46)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (47)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (48)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (49)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (50)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (51)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (51)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (51)_2.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (51)_3.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (51)_4.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (52)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (52)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (52)_2.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (52)_3.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (52)_4.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (53)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (54)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (55)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (56)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (57)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (58)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (58)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (59)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (60)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (61)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (62)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (63)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (64)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (64)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (65)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (66)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (67)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (67)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (68)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (68)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (69)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (70)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (71)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (72)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (74)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (75)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (75)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (76)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (77)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (78)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (78)_1.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (79)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (79)_2.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (80)_0.png
+Data/pollen_dataset_2024_05_08_objects/Tilia/Tilia_40X (80)_1.png
+Save/metrics_v2/instance_seg/events.out.tfevents.1720703802.Artems-MacBook-Pro.local.33875.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720703808.Artems-MacBook-Pro.local.33882.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720703956.Artems-MacBook-Pro.local.34158.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720703962.Artems-MacBook-Pro.local.34165.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720704417.Artems-MacBook-Pro.local.34504.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720704712.Artems-MacBook-Pro.local.34629.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720704870.Artems-MacBook-Pro.local.34686.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720705130.Artems-MacBook-Pro.local.35013.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720705225.Artems-MacBook-Pro.local.35059.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720705400.Artems-MacBook-Pro.local.35122.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720705624.Artems-MacBook-Pro.local.35181.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720705796.Artems-MacBook-Pro.local.35238.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720705869.Artems-MacBook-Pro.local.35299.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720705915.Artems-MacBook-Pro.local.35361.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720706249.Artems-MacBook-Pro.local.35479.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720706457.Artems-MacBook-Pro.local.35534.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720706615.Artems-MacBook-Pro.local.35595.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720706744.Artems-MacBook-Pro.local.35639.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720706783.Artems-MacBook-Pro.local.35673.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720707020.Artems-MacBook-Pro.local.35759.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720707116.Artems-MacBook-Pro.local.35800.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720707232.Artems-MacBook-Pro.local.35843.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720707721.Artems-MacBook-Pro.local.35965.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720707916.Artems-MacBook-Pro.local.36013.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708017.Artems-MacBook-Pro.local.36071.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708150.Artems-MacBook-Pro.local.36114.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708191.Artems-MacBook-Pro.local.36144.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708224.Artems-MacBook-Pro.local.36419.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708284.Artems-MacBook-Pro.local.36450.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708356.Artems-MacBook-Pro.local.36494.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708471.Artems-MacBook-Pro.local.36553.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720708968.Artems-MacBook-Pro.local.36702.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709115.Artems-MacBook-Pro.local.36740.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709167.Artems-MacBook-Pro.local.36774.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709236.Artems-MacBook-Pro.local.36807.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709323.Artems-MacBook-Pro.local.37118.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709355.Artems-MacBook-Pro.local.37148.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709374.Artems-MacBook-Pro.local.37171.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709562.Artems-MacBook-Pro.local.37518.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709767.Artems-MacBook-Pro.local.37563.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720709990.Artems-MacBook-Pro.local.37633.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710077.Artems-MacBook-Pro.local.37665.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710116.Artems-MacBook-Pro.local.37692.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710148.Artems-MacBook-Pro.local.37745.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710258.Artems-MacBook-Pro.local.37807.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710382.Artems-MacBook-Pro.local.37851.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710623.Artems-MacBook-Pro.local.37939.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710707.Artems-MacBook-Pro.local.38006.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720710929.Artems-MacBook-Pro.local.38086.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720875809.Artems-MacBook-Pro.local.51281.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720875907.Artems-MacBook-Pro.local.51322.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720875925.Artems-MacBook-Pro.local.51338.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720876153.Artems-MacBook-Pro.local.51389.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720877879.Artems-MacBook-Pro.local.51739.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720885913.Artems-MacBook-Pro.local.52280.0
+Save/metrics_v2/instance_seg/events.out.tfevents.1720886124.Artems-MacBook-Pro.local.52438.0
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720704908.Artems-MacBook-Pro.local.34686.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720708394.Artems-MacBook-Pro.local.36494.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720709245.Artems-MacBook-Pro.local.36807.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720709383.Artems-MacBook-Pro.local.37171.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720710125.Artems-MacBook-Pro.local.37692.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720710157.Artems-MacBook-Pro.local.37745.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720710393.Artems-MacBook-Pro.local.37851.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720710632.Artems-MacBook-Pro.local.37939.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720710716.Artems-MacBook-Pro.local.38006.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720710938.Artems-MacBook-Pro.local.38086.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720876162.Artems-MacBook-Pro.local.51389.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720877889.Artems-MacBook-Pro.local.51739.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720885923.Artems-MacBook-Pro.local.52280.2
+Save/metrics_v2/instance_seg/Train sample_loss/events.out.tfevents.1720886134.Artems-MacBook-Pro.local.52438.2
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720704908.Artems-MacBook-Pro.local.34686.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720708394.Artems-MacBook-Pro.local.36494.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720709245.Artems-MacBook-Pro.local.36807.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720709383.Artems-MacBook-Pro.local.37171.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720710125.Artems-MacBook-Pro.local.37692.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720710157.Artems-MacBook-Pro.local.37745.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720710393.Artems-MacBook-Pro.local.37851.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720710632.Artems-MacBook-Pro.local.37939.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720710716.Artems-MacBook-Pro.local.38006.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720710938.Artems-MacBook-Pro.local.38086.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720876162.Artems-MacBook-Pro.local.51389.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720877889.Artems-MacBook-Pro.local.51739.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720885923.Artems-MacBook-Pro.local.52280.4
+Save/metrics_v2/instance_seg/Train sample_loss_box_reg/events.out.tfevents.1720886134.Artems-MacBook-Pro.local.52438.4
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720704908.Artems-MacBook-Pro.local.34686.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720708394.Artems-MacBook-Pro.local.36494.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720709245.Artems-MacBook-Pro.local.36807.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720709383.Artems-MacBook-Pro.local.37171.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720710125.Artems-MacBook-Pro.local.37692.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720710157.Artems-MacBook-Pro.local.37745.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720710393.Artems-MacBook-Pro.local.37851.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720710632.Artems-MacBook-Pro.local.37939.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720710716.Artems-MacBook-Pro.local.38006.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720710938.Artems-MacBook-Pro.local.38086.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720876162.Artems-MacBook-Pro.local.51389.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720877889.Artems-MacBook-Pro.local.51739.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720885923.Artems-MacBook-Pro.local.52280.3
+Save/metrics_v2/instance_seg/Train sample_loss_classifier/events.out.tfevents.1720886134.Artems-MacBook-Pro.local.52438.3
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720704908.Artems-MacBook-Pro.local.34686.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720708394.Artems-MacBook-Pro.local.36494.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720709245.Artems-MacBook-Pro.local.36807.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720709383.Artems-MacBook-Pro.local.37171.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720710125.Artems-MacBook-Pro.local.37692.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720710157.Artems-MacBook-Pro.local.37745.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720710393.Artems-MacBook-Pro.local.37851.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720710632.Artems-MacBook-Pro.local.37939.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720710716.Artems-MacBook-Pro.local.38006.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720710938.Artems-MacBook-Pro.local.38086.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720876162.Artems-MacBook-Pro.local.51389.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720877889.Artems-MacBook-Pro.local.51739.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720885923.Artems-MacBook-Pro.local.52280.5
+Save/metrics_v2/instance_seg/Train sample_loss_mask/events.out.tfevents.1720886134.Artems-MacBook-Pro.local.52438.5
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720704908.Artems-MacBook-Pro.local.34686.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720708394.Artems-MacBook-Pro.local.36494.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720709245.Artems-MacBook-Pro.local.36807.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720709383.Artems-MacBook-Pro.local.37171.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720710125.Artems-MacBook-Pro.local.37692.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720710157.Artems-MacBook-Pro.local.37745.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720710393.Artems-MacBook-Pro.local.37851.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720710632.Artems-MacBook-Pro.local.37939.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720710716.Artems-MacBook-Pro.local.38006.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720710938.Artems-MacBook-Pro.local.38086.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720876162.Artems-MacBook-Pro.local.51389.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720877889.Artems-MacBook-Pro.local.51739.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720885923.Artems-MacBook-Pro.local.52280.6
+Save/metrics_v2/instance_seg/Train sample_loss_objectness/events.out.tfevents.1720886134.Artems-MacBook-Pro.local.52438.6
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720704908.Artems-MacBook-Pro.local.34686.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720708394.Artems-MacBook-Pro.local.36494.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720709245.Artems-MacBook-Pro.local.36807.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720709383.Artems-MacBook-Pro.local.37171.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720710125.Artems-MacBook-Pro.local.37692.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720710157.Artems-MacBook-Pro.local.37745.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720710393.Artems-MacBook-Pro.local.37851.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720710632.Artems-MacBook-Pro.local.37939.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720710716.Artems-MacBook-Pro.local.38006.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720710938.Artems-MacBook-Pro.local.38086.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720876162.Artems-MacBook-Pro.local.51389.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720877889.Artems-MacBook-Pro.local.51739.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720885923.Artems-MacBook-Pro.local.52280.7
+Save/metrics_v2/instance_seg/Train sample_loss_rpn_box_reg/events.out.tfevents.1720886134.Artems-MacBook-Pro.local.52438.7
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720704908.Artems-MacBook-Pro.local.34686.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720708394.Artems-MacBook-Pro.local.36494.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720709245.Artems-MacBook-Pro.local.36807.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720709383.Artems-MacBook-Pro.local.37171.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720710125.Artems-MacBook-Pro.local.37692.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720710157.Artems-MacBook-Pro.local.37745.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720710393.Artems-MacBook-Pro.local.37851.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720710632.Artems-MacBook-Pro.local.37939.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720710716.Artems-MacBook-Pro.local.38006.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720710938.Artems-MacBook-Pro.local.38086.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720876162.Artems-MacBook-Pro.local.51389.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720877889.Artems-MacBook-Pro.local.51739.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720885923.Artems-MacBook-Pro.local.52280.1
+Save/metrics_v2/instance_seg/Train sample_lr/events.out.tfevents.1720886134.Artems-MacBook-Pro.local.52438.1
+.DS_Store

@@ -201,7 +201,7 @@ class MetricLogger:
 
                 if not id: name = 'Train'
                 else: name = 'Validate'
-                writer.add_scalars(f'{name} sample', log_train, epoch*len(iterable)*(i+1))
+                writer.add_scalars(f'{name} sample', log_train, (epoch-1)*len(iterable) + i)
                 
             i += 1
             end = time.time()
