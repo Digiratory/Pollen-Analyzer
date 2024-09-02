@@ -1,3 +1,38 @@
+# This code block with or without modifications
+# is provided under BSD 3-Clause License.
+# Link to the original code source: https://github.com/pytorch/vision/blob/main/references/detection/engine.py
+
+# BSD 3-Clause License
+
+# Copyright (c) Soumith Chintala 2016, 
+# All rights reserved.
+
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+
+# * Redistributions of source code must retain the above copyright notice, this
+#   list of conditions and the following disclaimer.
+
+# * Redistributions in binary form must reproduce the above copyright notice,
+#   this list of conditions and the following disclaimer in the documentation
+#   and/or other materials provided with the distribution.
+
+# * Neither the name of the copyright holder nor the names of its
+#   contributors may be used to endorse or promote products derived from
+#   this software without specific prior written permission.
+
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+# FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+# DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+# SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+# CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+# OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
 import math
 import sys
 import time
@@ -13,7 +48,9 @@ from coco_utils import get_coco_api_from_dataset
 def train_one_epoch(model, optimizer, data_loader, writer, device, epoch, print_freq, scaler=None):
     model.train()
     metric_logger = utils.MetricLogger(delimiter="  ")
-    metric_logger.add_meter("lr", utils.SmoothedValue(window_size=1, fmt="{value:.6f}"))
+    metric_logger.add_meter("lr_head", utils.SmoothedValue(window_size=1, fmt="{value:.6f}"))
+    if len(optimizer.param_groups) > 1:
+        metric_logger.add_meter("lr_body", utils.SmoothedValue(window_size=1, fmt="{value:.6f}"))
     header = f"Epoch: [{epoch}]"
 
     lr_scheduler = None
@@ -25,7 +62,7 @@ def train_one_epoch(model, optimizer, data_loader, writer, device, epoch, print_
             optimizer, start_factor=warmup_factor, total_iters=warmup_iters
         )
 
-    for images, targets in metric_logger.log_every(data_loader, writer, 0, epoch, print_freq, header):
+    for images, targets in metric_logger.log_every(data_loader, print_freq, header, writer, 0, epoch):
         images = list(image.to(device) for image in images)
         targets = [{k: v.to(device) if isinstance(v, torch.Tensor) else v for k, v in t.items()} for t in targets]
         with torch.cuda.amp.autocast(enabled=scaler is not None):
@@ -56,8 +93,9 @@ def train_one_epoch(model, optimizer, data_loader, writer, device, epoch, print_
             lr_scheduler.step()
 
         metric_logger.update(loss=losses_reduced, **loss_dict_reduced)
-        metric_logger.update(lr=optimizer.param_groups[0]["lr"])
-
+        metric_logger.update(lr_head=optimizer.param_groups[0]["lr"])
+        if len(optimizer.param_groups) > 1:
+            metric_logger.update(lr_body=optimizer.param_groups[1]["lr"])
 
     return metric_logger
 
@@ -75,7 +113,7 @@ def _get_iou_types(model):
 
 
 @torch.inference_mode()
-def evaluate(model, data_loader, writer, device, epoch):
+def evaluate(model, data_loader, device):
     n_threads = torch.get_num_threads()
     # FIXME remove this and make paste_masks_in_image run on the GPU
     torch.set_num_threads(1)
@@ -88,7 +126,7 @@ def evaluate(model, data_loader, writer, device, epoch):
     iou_types = _get_iou_types(model)
     coco_evaluator = CocoEvaluator(coco, iou_types)
 
-    for images, targets in metric_logger.log_every(data_loader, writer, 1, epoch, 50, header):
+    for images, targets in metric_logger.log_every(data_loader, 50, header):
         images = list(img.to(device) for img in images)
 
         if torch.cuda.is_available():

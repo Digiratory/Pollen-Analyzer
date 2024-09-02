@@ -1,3 +1,38 @@
+# This code block with or without modifications
+# is provided under BSD 3-Clause License.
+# Link to the original code source: https://github.com/pytorch/vision/blob/main/references/detection/utils.py
+
+# BSD 3-Clause License
+
+# Copyright (c) Soumith Chintala 2016, 
+# All rights reserved.
+
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+
+# * Redistributions of source code must retain the above copyright notice, this
+#   list of conditions and the following disclaimer.
+
+# * Redistributions in binary form must reproduce the above copyright notice,
+#   this list of conditions and the following disclaimer in the documentation
+#   and/or other materials provided with the distribution.
+
+# * Neither the name of the copyright holder nor the names of its
+#   contributors may be used to endorse or promote products derived from
+#   this software without specific prior written permission.
+
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+# FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+# DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+# SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+# CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+# OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+# OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
 import datetime
 import errno
 import os
@@ -144,7 +179,7 @@ class MetricLogger:
     def add_meter(self, name, meter):
         self.meters[name] = meter
 
-    def log_every(self, iterable, writer, id, epoch, print_freq, header=None):
+    def log_every(self, iterable, print_freq, header=None, writer=None, id=None, epoch=None):
         i = 0
         if not header:
             header = ""
@@ -201,14 +236,14 @@ class MetricLogger:
 
                 if not id: name = 'Train'
                 else: name = 'Validate'
-                writer.add_scalars(f'{name} sample', log_train, (epoch-1)*len(iterable) + i)
+                if writer: writer.add_scalars(f'{name} sample', log_train, (epoch-1)*len(iterable) + i)
                 
             i += 1
             end = time.time()
         total_time = time.time() - start_time
         total_time_str = str(datetime.timedelta(seconds=int(total_time)))
         print(f"{header} Total time: {total_time_str} ({total_time / len(iterable):.4f} s / it)")
-        writer.flush()
+        if writer: writer.flush()
 
 
 def collate_fn(batch):
