@@ -111,3 +111,4 @@ if __name__ == '__main__':
         score_threshold = 0.9
         mask_threshold = 0.75
         segment_objects(path_to_model, output_dir, image_path, score_threshold, mask_threshold, name)
+        
