@@ -57,38 +57,6 @@ class SampleDataset(torch.utils.data.Dataset):
         return len(self.imgs)
 
 
-def test_model(model, data_loader_test:torch.utils.data.DataLoader, device):
-    # Evaluate the model
-    evaluate(model, data_loader_test, device)
-    
-    # eval_res = {}
-    # for iou_type, coco in evaluator.coco_eval.items():
-    #     for itr in range(1, 12 + 1):
-    #         if itr <= 6: typo = 'AP'
-    #         else: typo = 'AR'
-            
-    #         area = 'all'
-    #         id = itr % 6
-    #         if id == 0:area = 'lrg'
-    #         elif id == 1: area = 'med'
-    #         elif id == 2: area = 'sml'
-
-    #         iou = '0.50:0.95'
-    #         if itr == 2: iou = '0.50'
-    #         elif itr == 3: iou = '0.75'
-
-    #         max_dets = '100'
-    #         if itr == 7: max_dets = '1'
-    #         elif itr == 8: max_dets = '10'
-
-    #         sum_res  = coco.stats[itr-1]
-            
-    #         eval_res.update({f'|{iou_type}-{typo}|area:{area}|IoU:{iou}|dets:{max_dets}|': sum_res})
-            
-    # writer.add_scalars('Validation tables', eval_res, epoch*len(data_loader_test))
-
-
-
 if __name__ == '__main__':
     test_root = r'Data/CVAT_dataset'
     model_root = r'Save/models/InSegModel_fb'
@@ -108,4 +76,4 @@ if __name__ == '__main__':
     collate_fn=utils.collate_fn,
     )    
 
-    test_model(model, data_loader_test, device)
+    evaluate(model, data_loader_test, device)
