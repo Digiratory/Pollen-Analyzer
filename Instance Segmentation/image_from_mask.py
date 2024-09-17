@@ -2,13 +2,14 @@ import os
 import cv2
 import torch
 import numpy as np
+
 from PIL import Image
+from train_model import *
+from PIL import Image, ImageDraw
 from torchvision import tv_tensors
+from datumaro.components.dataset import Dataset
 from torchvision.ops.boxes import masks_to_boxes
 from torchvision.transforms.v2 import functional as F
-from PIL import Image, ImageDraw
-from datumaro.components.dataset import Dataset
-from train_model import get_model_instance_segmentation, get_transform, get_transform_object, AugmentImageDataset, clean_background
 
 
 def segment_objects(path_to_model: str, output_dir: str, image_path: str, score_threshold: float, mask_threshold: float,  name: str):
@@ -103,6 +104,7 @@ if __name__ == '__main__':
     output_dir = 'test_output'
     gen_input = 'generated_input'
 
+    # Generating synthetic images as sample
     # generate_samples(gen_input, 100)
 
     for name in os.listdir(input_dir):

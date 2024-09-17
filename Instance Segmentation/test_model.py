@@ -3,12 +3,12 @@ import torch
 import utils
 import numpy as np
 
+from train_model import *
 from engine import evaluate
 from image_from_mask import cvatParse
 from torchvision.io import read_image
 from torchvision.io import read_image
 from torchvision.ops.boxes import masks_to_boxes
-from train_model import get_model_instance_segmentation
 
 
 class SampleDataset(torch.utils.data.Dataset):
@@ -75,5 +75,8 @@ if __name__ == '__main__':
     shuffle=False,
     collate_fn=utils.collate_fn,
     )    
+
+    # Output mask & boxes on a given image
+    # get_image(model, device, dataset_test[514][0], 1, 'savedir')
 
     evaluate(model, data_loader_test, device)

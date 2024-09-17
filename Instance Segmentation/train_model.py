@@ -1,23 +1,24 @@
 import os
 import cv2
-import numpy as np
-from copy import deepcopy
-import matplotlib.pyplot as plt
-from random import randint, randrange
 import utils
 import torch
+import numpy as np
 import torchvision
+import matplotlib.pyplot as plt
+
 from PIL import Image
-from torch.utils.tensorboard import SummaryWriter
-from torchvision import datasets, tv_tensors
+from copy import deepcopy
+from engine import train_one_epoch
 from torchvision.io import read_image
-from torchvision.ops.boxes import masks_to_boxes
+from random import randint, randrange
 from torchvision.transforms import v2 as T
+from torchvision import datasets, tv_tensors
+from torchvision.ops.boxes import masks_to_boxes
+from torch.utils.tensorboard import SummaryWriter
 from torchvision.transforms.v2 import functional as F
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
 from torchvision.utils import draw_bounding_boxes, draw_segmentation_masks
-from engine import train_one_epoch, evaluate
 
 
 def clean_background(src):
@@ -153,7 +154,7 @@ def get_transform_object():
     return T.Compose(transforms)
 
 
-def get_image(model, image, epoch, save_dir):
+def get_image(model, device, image, epoch, save_dir):
     eval_transform = get_transform(train=False)
     
     model.eval()
@@ -167,7 +168,7 @@ def get_image(model, image, epoch, save_dir):
     image = (255.0 * (image - image.min()) / (image.max() - image.min())).to(torch.uint8)
     image = image[:3, ...]
     orig = deepcopy(image)
-    pred_labels = [f"pollen: {score:.3f}" for label, score in zip(pred["labels"], pred["scores"])]
+    pred_labels = [f"{score:.3f}" for label, score in zip(pred["labels"], pred["scores"])]
     pred_boxes = pred["boxes"].long()
     output_image = draw_bounding_boxes(image, pred_boxes, pred_labels, colors="red")
     
@@ -237,7 +238,7 @@ def train_model(model, model_save_dir:str, image_save_dir:str, data_loader:torch
         writer.flush()
 
         image = review_dataset[randrange(len(review_dataset))][0]
-        get_image(model, image, epoch, image_save_dir)
+        get_image(model, device, image, epoch, image_save_dir)
 
     writer.close()
     torch.save(model.state_dict(), model_save_dir)
