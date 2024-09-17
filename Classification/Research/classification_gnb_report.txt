@@ -1,0 +1,240 @@
+Gaussian Naive Bayes
+Model: resnet152
+Accuracy: 63.38%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.47      0.63      0.54        89
+          Alnus       0.44      0.22      0.29        32
+       Apiaceae       0.74      0.84      0.79        38
+      Artemisia       0.86      0.96      0.91        70
+         Betula       0.72      0.74      0.73        72
+ Chenopodiaceae       0.59      0.54      0.56        41
+        Corylus       0.60      0.48      0.53        44
+       Fraxinus       0.42      0.57      0.49        58
+          Picea       1.00      0.85      0.92        34
+          Pinus       0.70      0.59      0.64        27
+       Plantago       0.41      0.41      0.41        27
+        Poaceae       1.00      0.53      0.70        15
+Populus tremula       0.81      0.85      0.83        68
+        Quercus       0.73      0.38      0.50        21
+          Rumex       0.53      0.31      0.39        29
+          Salix       0.45      0.53      0.49        75
+          Tilia       0.96      0.62      0.75        37
+         Urtica       1.00      0.50      0.67         4
+
+       accuracy                           0.63       781
+      macro avg       0.69      0.59      0.62       781
+   weighted avg       0.65      0.63      0.63       781
+
+--------------------------------------------------
+Gaussian Naive Bayes
+Model: resnet18
+Accuracy: 67.86%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.53      0.78      0.63        89
+          Alnus       0.40      0.25      0.31        32
+       Apiaceae       1.00      0.82      0.90        38
+      Artemisia       0.89      0.97      0.93        70
+         Betula       0.70      0.72      0.71        72
+ Chenopodiaceae       0.77      0.66      0.71        41
+        Corylus       0.55      0.68      0.61        44
+       Fraxinus       0.52      0.57      0.55        58
+          Picea       0.89      0.91      0.90        34
+          Pinus       0.76      0.48      0.59        27
+       Plantago       0.48      0.37      0.42        27
+        Poaceae       1.00      0.60      0.75        15
+Populus tremula       0.75      0.90      0.82        68
+        Quercus       0.56      0.43      0.49        21
+          Rumex       0.79      0.38      0.51        29
+          Salix       0.60      0.57      0.59        75
+          Tilia       0.75      0.57      0.65        37
+         Urtica       1.00      1.00      1.00         4
+
+       accuracy                           0.68       781
+      macro avg       0.72      0.65      0.67       781
+   weighted avg       0.69      0.68      0.67       781
+
+--------------------------------------------------
+Gaussian Naive Bayes
+Model: swin_transformer
+Accuracy: 74.90%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.72      0.71      0.72        89
+          Alnus       0.60      0.56      0.58        32
+       Apiaceae       1.00      0.92      0.96        38
+      Artemisia       0.81      0.87      0.84        70
+         Betula       0.81      0.83      0.82        72
+ Chenopodiaceae       0.92      0.59      0.72        41
+        Corylus       0.89      0.89      0.89        44
+       Fraxinus       0.77      0.47      0.58        58
+          Picea       0.97      0.94      0.96        34
+          Pinus       0.77      0.89      0.83        27
+       Plantago       0.35      0.70      0.47        27
+        Poaceae       0.55      0.80      0.65        15
+Populus tremula       0.93      0.84      0.88        68
+        Quercus       0.72      0.62      0.67        21
+          Rumex       0.52      0.41      0.46        29
+          Salix       0.73      0.81      0.77        75
+          Tilia       0.60      0.65      0.62        37
+         Urtica       0.40      1.00      0.57         4
+
+       accuracy                           0.75       781
+      macro avg       0.73      0.75      0.72       781
+   weighted avg       0.77      0.75      0.75       781
+
+--------------------------------------------------
+Gaussian Naive Bayes
+Model: resnet34
+Accuracy: 78.75%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.61      0.75      0.68        89
+          Alnus       0.77      0.62      0.69        32
+       Apiaceae       1.00      0.95      0.97        38
+      Artemisia       0.95      1.00      0.97        70
+         Betula       0.88      0.88      0.88        72
+ Chenopodiaceae       0.82      0.68      0.75        41
+        Corylus       0.58      0.80      0.67        44
+       Fraxinus       0.60      0.67      0.63        58
+          Picea       0.94      0.91      0.93        34
+          Pinus       0.88      0.78      0.82        27
+       Plantago       0.70      0.52      0.60        27
+        Poaceae       1.00      0.93      0.97        15
+Populus tremula       1.00      0.93      0.96        68
+        Quercus       0.71      0.48      0.57        21
+          Rumex       0.76      0.76      0.76        29
+          Salix       0.72      0.67      0.69        75
+          Tilia       0.85      0.76      0.80        37
+         Urtica       0.67      1.00      0.80         4
+
+       accuracy                           0.79       781
+      macro avg       0.80      0.78      0.79       781
+   weighted avg       0.80      0.79      0.79       781
+
+--------------------------------------------------
+Gaussian Naive Bayes
+Model: efficientnet_v2
+Accuracy: 10.12%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.00      0.00      0.00        89
+          Alnus       0.00      0.00      0.00        32
+       Apiaceae       0.09      0.84      0.16        38
+      Artemisia       0.08      0.01      0.02        70
+         Betula       0.00      0.00      0.00        72
+ Chenopodiaceae       0.00      0.00      0.00        41
+        Corylus       0.15      0.18      0.16        44
+       Fraxinus       0.00      0.00      0.00        58
+          Picea       0.00      0.00      0.00        34
+          Pinus       0.00      0.00      0.00        27
+       Plantago       0.04      0.04      0.04        27
+        Poaceae       0.00      0.00      0.00        15
+Populus tremula       0.21      0.46      0.29        68
+        Quercus       0.00      0.00      0.00        21
+          Rumex       0.08      0.17      0.11        29
+          Salix       0.00      0.00      0.00        75
+          Tilia       0.00      0.00      0.00        37
+         Urtica       0.01      0.25      0.02         4
+
+       accuracy                           0.10       781
+      macro avg       0.04      0.11      0.04       781
+   weighted avg       0.04      0.10      0.05       781
+
+--------------------------------------------------
+Gaussian Naive Bayes
+Model: inception_v3
+Accuracy: 43.92%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.41      0.42      0.41        89
+          Alnus       0.08      0.03      0.05        32
+       Apiaceae       0.57      0.55      0.56        38
+      Artemisia       0.47      0.80      0.59        70
+         Betula       0.55      0.64      0.59        72
+ Chenopodiaceae       0.47      0.51      0.49        41
+        Corylus       0.45      0.34      0.39        44
+       Fraxinus       0.19      0.28      0.22        58
+          Picea       0.66      0.79      0.72        34
+          Pinus       0.47      0.30      0.36        27
+       Plantago       0.08      0.04      0.05        27
+        Poaceae       0.38      0.80      0.51        15
+Populus tremula       0.72      0.62      0.67        68
+        Quercus       0.50      0.19      0.28        21
+          Rumex       0.31      0.17      0.22        29
+          Salix       0.33      0.17      0.23        75
+          Tilia       0.42      0.38      0.40        37
+         Urtica       0.24      1.00      0.38         4
+
+       accuracy                           0.44       781
+      macro avg       0.41      0.45      0.40       781
+   weighted avg       0.43      0.44      0.42       781
+
+--------------------------------------------------
+Gaussian Naive Bayes
+Model: resnet50
+Accuracy: 55.44%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.41      0.71      0.52        89
+          Alnus       0.36      0.16      0.22        32
+       Apiaceae       0.91      0.84      0.88        38
+      Artemisia       0.78      0.91      0.84        70
+         Betula       0.63      0.62      0.63        72
+ Chenopodiaceae       0.31      0.54      0.39        41
+        Corylus       0.48      0.48      0.48        44
+       Fraxinus       0.45      0.41      0.43        58
+          Picea       0.90      0.79      0.84        34
+          Pinus       0.42      0.30      0.35        27
+       Plantago       0.41      0.26      0.32        27
+        Poaceae       1.00      0.40      0.57        15
+Populus tremula       0.75      0.78      0.76        68
+        Quercus       0.22      0.10      0.13        21
+          Rumex       0.50      0.07      0.12        29
+          Salix       0.48      0.49      0.49        75
+          Tilia       0.65      0.41      0.50        37
+         Urtica       0.00      0.00      0.00         4
+
+       accuracy                           0.55       781
+      macro avg       0.54      0.46      0.47       781
+   weighted avg       0.56      0.55      0.54       781
+
+--------------------------------------------------
+Gaussian Naive Bayes
+Model: resnet101
+Accuracy: 60.82%
+Classification Report:
+                 precision    recall  f1-score   support
+
+           Acer       0.49      0.61      0.54        89
+          Alnus       0.45      0.16      0.23        32
+       Apiaceae       0.88      0.79      0.83        38
+      Artemisia       0.85      0.91      0.88        70
+         Betula       0.68      0.78      0.73        72
+ Chenopodiaceae       0.39      0.49      0.43        41
+        Corylus       0.63      0.50      0.56        44
+       Fraxinus       0.47      0.50      0.48        58
+          Picea       0.91      0.91      0.91        34
+          Pinus       0.82      0.33      0.47        27
+       Plantago       0.40      0.37      0.38        27
+        Poaceae       0.88      0.47      0.61        15
+Populus tremula       0.78      0.87      0.82        68
+        Quercus       0.64      0.43      0.51        21
+          Rumex       0.33      0.28      0.30        29
+          Salix       0.42      0.56      0.48        75
+          Tilia       0.65      0.46      0.54        37
+         Urtica       1.00      0.75      0.86         4
+
+       accuracy                           0.61       781
+      macro avg       0.65      0.56      0.59       781
+   weighted avg       0.62      0.61      0.60       781
+
+--------------------------------------------------
