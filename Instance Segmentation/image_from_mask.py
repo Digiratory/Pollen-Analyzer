@@ -96,16 +96,12 @@ def generate_samples(save_dir, amount):
             break
     
 if __name__ == '__main__':
-    path_to_xml = 'Data/CVAT_dataset/annotations.xml'
-    pollen_dir = 'Data/pollen_dataset_2024_08_14_objects_clean'
-    noise_dir = 'Data/Noise_40X_95'
     path_to_model = 'models/InSegModel_fb'
     input_dir = 'input'
     output_dir = 'test_output'
-    gen_input = 'generated_input'
 
     # Generating synthetic images as sample
-    # generate_samples(gen_input, 100)
+    # generate_samples(input_dir, 100)
 
     for name in os.listdir(input_dir):
         image_path = os.path.join(input_dir, name)
