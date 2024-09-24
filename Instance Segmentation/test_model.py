@@ -77,6 +77,6 @@ if __name__ == '__main__':
     )    
 
     # Output mask & boxes on a given image
-    # get_image(model, device, dataset_test[514][0], 1, 'savedir')
+    # get_image(model, device, read_image(os.path.join(test_root, 'images/Test/Sample_1/Sample_1 (164).jpg')), 1, 'Save')
 
     evaluate(model, data_loader_test, device)

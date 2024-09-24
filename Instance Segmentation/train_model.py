@@ -168,12 +168,13 @@ def get_image(model, device, image, epoch, save_dir):
     image = (255.0 * (image - image.min()) / (image.max() - image.min())).to(torch.uint8)
     image = image[:3, ...]
     orig = deepcopy(image)
-    pred_labels = [f"{score:.3f}" for label, score in zip(pred["labels"], pred["scores"])]
-    pred_boxes = pred["boxes"].long()
-    output_image = draw_bounding_boxes(image, pred_boxes, pred_labels, colors="red")
     
     masks = (pred["masks"] > 0.7).squeeze(1)
-    output_image = draw_segmentation_masks(output_image, masks, alpha=0.5, colors="blue")
+    output_image = draw_segmentation_masks(image, masks, alpha=0.5, colors="yellow")
+
+    pred_labels = [f"{score:.3f}" for label, score in zip(pred["labels"], pred["scores"])]
+    pred_boxes = pred["boxes"].long()
+    output_image = draw_bounding_boxes(output_image, pred_boxes, pred_labels, colors="red", font='Helvetica', font_size=32)
 
     plt.figure(figsize=(12, 12))
     plt.imshow(orig.permute(1, 2, 0))
