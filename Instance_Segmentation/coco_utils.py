@@ -40,7 +40,7 @@ import os
 import torch
 import torch.utils.data
 import torchvision
-import transforms as T
+from Instance_Segmentation import transforms as T
 from pycocotools import mask as coco_mask
 from pycocotools.coco import COCO
 
