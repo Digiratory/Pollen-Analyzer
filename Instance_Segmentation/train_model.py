@@ -1,6 +1,5 @@
 import os
 import cv2
-import utils
 import torch
 import numpy as np
 import torchvision
@@ -8,9 +7,10 @@ import matplotlib.pyplot as plt
 
 from PIL import Image
 from copy import deepcopy
-from engine import train_one_epoch
+from Instance_Segmentation.engine import train_one_epoch
 from torchvision.io import read_image
 from random import randint, randrange
+from Instance_Segmentation import utils
 from torchvision.transforms import v2 as T
 from torchvision import datasets, tv_tensors
 from torchvision.ops.boxes import masks_to_boxes

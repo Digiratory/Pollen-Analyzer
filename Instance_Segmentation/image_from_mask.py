@@ -4,9 +4,9 @@ import torch
 import numpy as np
 
 from PIL import Image
-from train_model import *
 from PIL import Image, ImageDraw
 from torchvision import tv_tensors
+from Instance_Segmentation.train_model import *
 from datumaro.components.dataset import Dataset
 from torchvision.ops.boxes import masks_to_boxes
 from torchvision.transforms.v2 import functional as F
