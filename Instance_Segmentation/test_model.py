@@ -1,14 +1,14 @@
 import os
 import torch
-import utils
 import numpy as np
 
-from train_model import *
-from engine import evaluate
-from image_from_mask import cvatParse
 from torchvision.io import read_image
 from torchvision.io import read_image
+from Instance_Segmentation import utils
 from torchvision.ops.boxes import masks_to_boxes
+from Instance_Segmentation.engine import evaluate
+from Instance_Segmentation.image_from_mask import cvatParse
+from Instance_Segmentation.train_model import get_model_instance_segmentation
 
 
 class SampleDataset(torch.utils.data.Dataset):

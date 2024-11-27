@@ -73,7 +73,7 @@ def get_class(db: AnnoyIndex, vector, index_to_class: dict, k: int = 5):
     return most_common_class
 
 
-def get_classificaion_params():
+def get_classificaion_params(legend_path: str, db_path: str):
     labels = []
 
     loaded_class_to_indices = load_class_to_indices(legend_path)
@@ -86,7 +86,7 @@ def get_classificaion_params():
     k = 10 # N-neighbours
     f = 768 # Vector size
     db = AnnoyIndex(f, 'euclidean') # Euclidean distance
-    db_file_path = 'Data/db_folder/Pollen DB Swin Transformer.ann'
+    db_file_path = db_path
     db.load(db_file_path)
 
     return db, index_to_class, k, labels
@@ -94,6 +94,7 @@ def get_classificaion_params():
 
 if __name__ == '__main__':
     legend_path = r'Data/legend/Pollen DB Legend.json'
+    db_path = 'Data/db_folder/Pollen DB Swin Transformer.ann'
     path_to_model = r'Data/models/InSegModel_fb'
     input_dir = r'Data/CVAT_dataset/images/Test/Sample_1'
     output_dir = r'Save/tabels/test-1.csv'
@@ -112,7 +113,7 @@ if __name__ == '__main__':
     cl_model = models.swin_t(weights="DEFAULT")
     feature_extractor = get_feature_extractor(cl_model)
 
-    db, index_to_class, k, labels = get_classificaion_params()
+    db, index_to_class, k, labels = get_classificaion_params(legend_path, db_path)
 
     df_pred = pd.DataFrame(columns=labels)
     print('Object classification in progress:')

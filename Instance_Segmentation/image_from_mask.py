@@ -41,7 +41,7 @@ def segment_objects(path_to_model: str, output_dir: str, image_path: str, score_
             box = boxes[i]
             object_img = extract_object_by_mask(mask, image, mask_threshold, box)
 
-            output_path = os.path.join(output_dir, f'{name.split('.')[0]}_{i}.png')
+            output_path = os.path.join(output_dir, f"{name.split('.')[0]}_{i}.png")
             object_img.save(output_path)
 
 
