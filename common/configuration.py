@@ -7,10 +7,13 @@ class DatasetPath():
     reference_images = os.path.join(root, "objects_clean")
     noise_bg_images = os.path.join(root, "Noise_40X")
     instance_segmentation = os.path.join(root, "instance_segmentation_test")
+    real_historical_samples = os.path.join(root, "historical_samples")
 
 class ModelPath():
     root = "models"
     instance_segmentation = os.path.join(root, "instance_segmentation", "InSegModel_release.pt")
+    osc_classification = os.path.join(root, "osc_classification", "osc_classification_release.pt")
+
 
 species_native = ['Acer',
                   'Alnus',

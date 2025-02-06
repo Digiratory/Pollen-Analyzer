@@ -6,3 +6,7 @@ pycocotools==2.0.7
 datumaro
 scikit-image>=0.22.0
 tensorboard
+seaborn
+lightning
+annoy
+openpyxl

@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+from PIL import Image, ImageOps
 
 def clean_background(src:np.ndarray) -> np.ndarray:
     """Util method for beatufication of images. 
@@ -21,3 +22,9 @@ def clean_background(src:np.ndarray) -> np.ndarray:
     rgba = [b, g, r, alpha]
     dst = cv2.merge(rgba, 4)
     return dst
+
+def pad2size(image, size=(448, 448)):
+    return ImageOps.pad(image, size)
+
+def scale2factor(image, factor=0.5):
+    return ImageOps.scale(image, factor)
