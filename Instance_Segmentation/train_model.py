@@ -155,6 +155,7 @@ def get_transform_object():
 
 
 def get_image(model, device, image, epoch, save_dir):
+    os.makedirs(save_dir, exist_ok=True)   
     eval_transform = get_transform(train=False)
     
     model.eval()
@@ -174,7 +175,7 @@ def get_image(model, device, image, epoch, save_dir):
 
     pred_labels = [f"{score:.3f}" for label, score in zip(pred["labels"], pred["scores"])]
     pred_boxes = pred["boxes"].long()
-    output_image = draw_bounding_boxes(output_image, pred_boxes, pred_labels, colors="red", font='Helvetica', font_size=32)
+    output_image = draw_bounding_boxes(output_image, pred_boxes, pred_labels, colors="red", font_size=32)
 
     plt.figure(figsize=(12, 12))
     plt.imshow(orig.permute(1, 2, 0))
@@ -245,14 +246,7 @@ def train_model(model, model_save_dir:str, image_save_dir:str, data_loader:torch
     torch.save(model.state_dict(), model_save_dir)
 
 
-if __name__ == '__main__':
-    # train/save dirs
-    noise_dir = 'Data/Noise_40X_95'
-    pollen_dir = '/home/shared/datasets/pollen_dataset_2024_08_24_objects_clean'
-    PATH_TO_MODEL = 'Save/models/InSegModel_fb'
-    log_dir = 'Save/metrics/log_fb'
-    image_save_dir = 'Save/images/images_fb'
-
+def main(noise_dir, pollen_dir, model_path, log_dir, image_save_dir):
     #pollen_classes = [folder for folder in os.listdir(pollen_dir) if folder[0] != '.']
     num_classes = 2  # pollen as one class + background (noise)
     freezed_epochs = 20 # number of epochs when only roi head will get updates
@@ -278,6 +272,18 @@ if __name__ == '__main__':
     num_epochs = 60
     log_freq = 25
 
-    train_model(model, PATH_TO_MODEL, image_save_dir, data_loader, review_dataset, 
+    train_model(model, model_path, image_save_dir, data_loader, review_dataset, 
                 device, num_epochs, freezed_epochs, log_dir,  log_freq)
+
+if __name__ == '__main__':
+    # train/save dirs
+    noise_dir = 'Data/Noise_40X_95'
+    pollen_dir = '/home/shared/datasets/pollen_dataset_2024_08_24_objects_clean'
+    PATH_TO_MODEL = 'Save/models/InSegModel_fb'
+    log_dir = 'Save/metrics/log_fb'
+    image_save_dir = 'Save/images/images_fb'
+
+    main(noise_dir, pollen_dir, PATH_TO_MODEL, log_dir, image_save_dir)
+
+    
       
