@@ -171,3 +171,8 @@ cython_debug/
 Dataset/*
 Utils/obj_sample.png
 models/instance_segmentation/InSegModel_release.pt
+models/osc_classification/osc_classification_release.pt
+.lr_find_*.ckpt
+history/*
+logs/*
+

@@ -9,10 +9,13 @@ class DatasetPath():
     instance_segmentation = os.path.join(root, "instance_segmentation_test")
     real_historical_samples = os.path.join(root, "historical_samples")
 
+
 class ModelPath():
     root = "models"
-    instance_segmentation = os.path.join(root, "instance_segmentation", "InSegModel_release.pt")
-    osc_classification = os.path.join(root, "osc_classification", "osc_classification_release.pt")
+    instance_segmentation = os.path.join(
+        root, "instance_segmentation", "InSegModel_release.pt")
+    osc_classification = os.path.join(
+        root, "osc_classification", "osc_classification_release.pt")
 
 
 species_native = ['Acer',
@@ -36,3 +39,8 @@ species_native = ['Acer',
                   'Ulmus',
                   'Ambrosia']
 species_invasive = ['Taraxacum', 'Malus']
+
+species_classes_map = {value: key for key, value in enumerate(species_native)}
+species_classes_map["Unknown"] = -1
+
+species_label_map = {v: k for k, v in species_classes_map.items()}
