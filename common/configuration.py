@@ -18,7 +18,7 @@ class ModelPath():
         root, "osc_classification", "osc_classification_release.pt")
 
 
-species_native = ['Acer',
+species_native = set(['Acer',
                   'Alnus',
                   'Apiaceae',
                   'Artemisia',
@@ -37,10 +37,16 @@ species_native = ['Acer',
                   'Tilia',
                   'Urtica',
                   'Ulmus',
-                  'Ambrosia']
-species_invasive = ['Taraxacum', 'Malus']
+                  'Ambrosia'])
+species_invasive = set(['Taraxacum', 'Malus'])
+
+species_all = species_native | species_invasive
 
 species_classes_map = {value: key for key, value in enumerate(species_native)}
 species_classes_map["Unknown"] = -1
 
 species_label_map = {v: k for k, v in species_classes_map.items()}
+
+species_classes_map_all = {value: key for key, value in enumerate(species_all)}
+species_classes_map_all["Unknown"] = -1
+species_label_map_all = {v: k for k, v in species_classes_map_all.items()}

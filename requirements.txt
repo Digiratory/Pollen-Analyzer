@@ -10,3 +10,4 @@ seaborn
 lightning
 annoy
 openpyxl
+scikit-learn
