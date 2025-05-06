@@ -28,12 +28,12 @@ def calculate_confusion_matrix(y_true, y_pred, classes):
     return pd.DataFrame(confusion_matrices).T
 
 def plot_confusion_matrix(df: pd.DataFrame, subtitle: str = ""):
-    plt.figure(figsize=(6, 4))
+    plt.figure(figsize=(12, 8))
     sns.heatmap(df, annot=True, fmt="d", cmap="Blues", cbar=True, linewidths=0.5)
     if len(subtitle) > 0:
-        plt.title("Confusion Matrix\n" + subtitle)
+        plt.title("Prediction Matrix\n" + subtitle)
     else:
-        plt.title("Confusion Matrix")
+        plt.title("Prediction Matrix")
     plt.ylabel("Class")
     plt.tight_layout()
     plt.show()
