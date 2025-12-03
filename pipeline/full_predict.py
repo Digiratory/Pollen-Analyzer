@@ -63,7 +63,7 @@ class ImageProcessor():
         vector = features[0]
         # classification by model
         scores = distance_to_scores(pred_distances)
-        prediction = scores_to_class(scores, 4)
+        prediction = scores_to_class(scores, 7)
         predict_str = [self._prediction_to_class_name(l.item()
                                                       ) for l in prediction.cpu()]
         pred_class = predict_str[0]

@@ -36,4 +36,5 @@ def plot_confusion_matrix(df: pd.DataFrame, subtitle: str = ""):
         plt.title("Prediction Matrix")
     plt.ylabel("Class")
     plt.tight_layout()
+    plt.savefig(f"out/pred_mat_{subtitle}.png")
     plt.show()

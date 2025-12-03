@@ -176,3 +176,6 @@ models/osc_classification/osc_classification_release.pt
 history/*
 logs/*
 
+out/*
+models/osc_classification/*.pt
+
