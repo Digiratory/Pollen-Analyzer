@@ -1,7 +1,5 @@
---index-url https://download.pytorch.org/whl/cu121
-torch==2.2.2
---index-url https://download.pytorch.org/whl/cu121
-torchvision==0.17.2
---index-url https://download.pytorch.org/whl/cu121
-torchaudio==2.2.2
+--index-url https://download.pytorch.org/whl/cu130
+torch==2.9.1
+--index-url https://download.pytorch.org/whl/cu130
+torchvision==0.24.1
 
