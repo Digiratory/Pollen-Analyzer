@@ -44,26 +44,27 @@ class ImageProcessor():
         self._classification_model.to("cuda")
         self._classification_model.eval()
 
-    def process_image(self, image_path: str, crops_path: str, augment: int = 0, with_embeddings=False):
+    def process_image(self, image_path: str, crops_path: str, augment: int = 0, with_embeddings=False, threshold: float = 8.0):
         extracted_objs = self._segmentation_model(image_path=image_path,
                                                   output_dir=crops_path)
         pred_labels = []
         for obj in extracted_objs:
-            pred_class, embeddings = self._classify_image(obj, augment)
+            pred_class, embeddings = self._classify_image(
+                obj, augment, threshold)
             if with_embeddings:
                 pred_labels.append([pred_class, embeddings])
             else:
                 pred_labels.append(pred_class)
         return pred_labels
 
-    def _classify_image(self, img: Image, augment: int):
+    def _classify_image(self, img: Image, augment: int, threshold: float):
         features, pred_distances = extract_features(img,
                                                     self._classification_model,
                                                     augment)
         vector = features[0]
         # classification by model
         scores = distance_to_scores(pred_distances)
-        prediction = scores_to_class(scores, 7)
+        prediction = scores_to_class(scores, threshold)
         predict_str = [self._prediction_to_class_name(l.item()
                                                       ) for l in prediction.cpu()]
         pred_class = predict_str[0]

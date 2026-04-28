@@ -2,54 +2,60 @@ import torch
 from torch import nn
 from PIL import ImageOps
 import torchvision.transforms as transforms
-from torchvision.transforms import v2 as T
+from torchvision.transforms import v2
 from common.img_utils import pad2size, scale2factor
+from torchvision import models
 
 
 class OpenSetClassificationModel(nn.Module):
-    def __init__(self, n_classes):
+    def __init__(self,
+                 n_classes,
+                 backbone="resnet18",
+                 ):
         super().__init__()
         self.num_classes = n_classes
-        self.model: nn.Module = torch.hub.load(
-            'facebookresearch/dinov2', 'dinov2_vits14_reg')
-        self.model.eval()
-        num_hidden_features = 384
-        layers = 1
-        self.linear = nn.Linear((1 + layers) *num_hidden_features, n_classes, bias=False)
-        self.linear.weight.data.normal_(mean=0.0, std=0.01)
-        # self.linear.bias.data.zero_()
-        self.classifier = self.linear
-        # self.classifier = nn.Sequential(
-        #     nn.Dropout(p=0.5),
-        #     nn.BatchNorm1d(num_features),
-        #     nn.Linear(num_features, num_hidden_features, bias=True),
-        #     nn.Mish(),
-        #     nn.LayerNorm(num_hidden_features),
-        #     nn.Linear(num_hidden_features, n_classes, bias=False)
-        # )
+        self.backbone = backbone
+        if backbone == "resnet18":
+            self.model = models.resnet18(weights='DEFAULT')
+            self.model.fc = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "resnet34":
+            self.model = models.resnet34(weights='DEFAULT')
+            self.model.fc = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "resnet50":
+            self.model = models.resnet50(weights='DEFAULT')
+            self.model.fc = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "resnet101":
+            self.model = models.resnet101(weights='DEFAULT')
+            self.model.fc = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "resnet152":
+            self.model = models.resnet152(weights='DEFAULT')
+            self.model.fc = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "efficientnet_v2":
+            self.model = models.efficientnet_v2_s(weights='DEFAULT')
+            self.model.classifier = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "inception_v3":
+            self.model = models.inception_v3(
+                weights='DEFAULT', aux_logits=False)
+            self.model.fc = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "vit":
+            self.model = models.vit_b_16(weights='DEFAULT')
+            self.model.heads.head = nn.Linear(512, n_classes, bias=False)
+        elif backbone == "swin_transformer":
+            self.model = models.swin_t(weights='DEFAULT')
+            self.model.head = nn.Linear(512, n_classes, bias=False)
+        else:
+            raise ValueError("Unsupported backbone")
 
         self.anchors = nn.Parameter(torch.zeros(
             self.num_classes, self.num_classes).float(), requires_grad=False)
 
-    def train(self, mode: bool):
-        super().train(mode)
-        self.model.eval()
-        return self
+    # def train(self, mode: bool):
+    #     super().train(mode)
+    #     self.model.eval()
+    #     return self
 
     def forward(self, x, skip_distance=False):
-        batch_size = len(x)
-        x = self.model.forward_features(x)
-        cls_token = x["x_norm_clstoken"]
-        patch_tokens = x["x_norm_patchtokens"]
-        # fmt: off
-        linear_input = torch.cat([
-            cls_token,
-            patch_tokens.mean(dim=1),
-        ], dim=1)
-        # fmt: on
-        # x = x.view(batch_size, -1)
-
-        outLinear = self.classifier(linear_input)
+        outLinear = self.model(x)
         outDistance = None if skip_distance else self.distance_classifier(
             outLinear)
 
@@ -89,35 +95,36 @@ def scores_to_class(scores: torch.Tensor, threshold):
     return pred_candidate
 
 
+def get_static_transforms():
+    return v2.Compose([
+        v2.Lambda(scale2factor),
+        v2.Lambda(pad2size),
+    ])
+
+
+def get_model_transforms(backbone="resnet18"):
+    if backbone == "resnet18":
+        return models.ResNet18_Weights.IMAGENET1K_V1.transforms()
+    else:
+        raise ValueError("Unsupported backbone")
+
+
 def extract_features(img, model, augment=0):
     preprocess = transforms.Compose(
         [
-            T.Lambda(scale2factor),
-            T.Lambda(pad2size),
-            # T.Lambda(ImageOps.autocontrast),
-            # T.Lambda(lambda x: ImageOps.equalize(x, mask=x.convert('L'))),
-            T.PILToTensor(),
-            T.ToDtype(torch.float32, scale=True),
-            T.Normalize(mean=[0.485, 0.456, 0.406], std=[
-                        0.229, 0.224, 0.225]),
+            get_static_transforms(),
+            # v2.Lambda(ImageOps.autocontrast),
+            # v2.Lambda(lambda x: ImageOps.equalize(x, mask=x.convert('L'))),
+            get_model_transforms(),
         ]
     )
     preprocess_aug = transforms.Compose(
         [
-            T.Lambda(scale2factor),
-            T.Lambda(pad2size),
-            T.RandomHorizontalFlip(p=0.5),
-            # T.RandomEqualize(),
-            T.RandomVerticalFlip(p=0.5),
-            # T.RandomRotation(180),
-            T.RandomAffine(degrees=180, translate=(0.1, 0.1)),
-            # T.RandomAutocontrast(),
-            # T.Lambda(ImageOps.autocontrast),
-            # T.Lambda(lambda x: ImageOps.equalize(x, mask=x.convert('L'))),
-            T.PILToTensor(),
-            T.ToDtype(torch.float32, scale=True),
-            T.Normalize(mean=[0.485, 0.456, 0.406], std=[
-                        0.229, 0.224, 0.225]),
+            get_static_transforms(),
+            v2.RandomHorizontalFlip(p=0.5),
+            v2.RandomVerticalFlip(p=0.5),
+            v2.RandomAffine(degrees=180, translate=(0.1, 0.1)),
+            get_model_transforms(),
         ]
     )
     img_tensor = preprocess(img).unsqueeze(0)

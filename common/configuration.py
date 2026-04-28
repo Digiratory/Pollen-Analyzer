@@ -9,6 +9,8 @@ class DatasetPath():
     noise_bg_images = os.path.join(root, "Noise_40X")
     instance_segmentation = os.path.join(root, "instance_segmentation_test")
     real_historical_samples = os.path.join(root, "historical_samples")
+    real_historical_samples_classification = os.path.join(root, "historical_classification_test")
+    
 
 
 class ModelPath():
