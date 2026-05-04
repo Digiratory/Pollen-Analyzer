@@ -167,7 +167,6 @@ cython_debug/
 /.DS_Store
 /Instance Segmentation/__pycache__/
 /Instance Segmentation/.DS_Store
-/Database
 Dataset/*
 Utils/obj_sample.png
 models/osc_classification/osc_classification_release.pt
