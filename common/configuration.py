@@ -2,8 +2,9 @@ import os
 
 
 class DatasetPath():
-    root = "Dataset/pollen_dataset_2025_02_05"
-    raw_images = os.path.join(root, "samples")
+    root = "Dataset/pollen_dataset_kfu_2025"
+    raw_sample_images = os.path.join(root, "reference_sources", "samples")
+    raw_sample_hist_images = os.path.join(root, "reference_sources", "historical_train")
     objects_clean = os.path.join(root, "objects_clean")
     reference_images = os.path.join(root, "reference_ds")
     noise_bg_images = os.path.join(root, "Noise_40X")
