@@ -159,7 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-/Save/
 /output/
 /Data/
 /generated_input/
@@ -169,11 +168,9 @@ cython_debug/
 /Instance Segmentation/.DS_Store
 Dataset/*
 Utils/obj_sample.png
-models/osc_classification/osc_classification_release.pt
 .lr_find_*.ckpt
 history/*
 logs/*
 
 out/*
-models/osc_classification/*.pt
 
