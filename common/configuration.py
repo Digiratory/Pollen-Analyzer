@@ -76,6 +76,33 @@ species_by_familia = {
 }
 
 
+genetic_order_classes = [
+    'Acer',
+    'Alnus',
+    'Corylus',
+    'Quercus',
+    'Malus',
+    'Ulmus',
+    'Urtica',
+    'Populus tremula',
+    'Salix',
+    'Ambrosia',
+    'Artemisia',
+    'Taraxacum', 
+    'Apiaceae',
+    'Plantago',
+    'Betula',
+    'Picea',
+    'Pinus',
+    'Poaceae',
+    'Chenopodiaceae',
+    'Rumex',
+    'Tilia',
+    'Unknown',
+    'Not pollen'
+]
+
+
 
 species_all = species_native + species_invasive
 
