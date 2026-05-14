@@ -57,17 +57,14 @@ class SampleDataset(torch.utils.data.Dataset):
         return len(self.imgs)
 
 
-if __name__ == '__main__':
-    test_root = r'Data/CVAT_dataset'
-    model_root = r'Save/models/InSegModel_fb'
-
+def main(test_data_root, model_root):
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
     model = get_model_instance_segmentation(num_classes=2, pre_trained=False)
     model.load_state_dict(torch.load(model_root, map_location=device))
     model.to(device)
     model.eval()
-    dataset_test = SampleDataset(root=test_root)
+    dataset_test = SampleDataset(root=test_data_root)
 
     data_loader_test = torch.utils.data.DataLoader(
     dataset_test,
@@ -77,6 +74,12 @@ if __name__ == '__main__':
     )    
 
     # Output mask & boxes on a given image
-    # get_image(model, device, read_image(os.path.join(test_root, 'images/Test/Sample_1/Sample_1 (164).jpg')), 1, 'Save')
+    # get_image(model, device, read_image(os.path.join(test_data_root, 'images/Test/Sample_1/Sample_1 (164).jpg')), 1, 'Save')
 
     evaluate(model, data_loader_test, device)
+
+if __name__ == '__main__':
+    test_root = r'Data/CVAT_dataset'
+    model_root = r'Save/models/InSegModel_fb'
+
+    main(test_root, model_root)

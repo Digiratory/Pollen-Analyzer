@@ -161,6 +161,13 @@ def convert_to_coco_api(ds):
     # annotation IDs need to start at 1, not 0, see torchvision issue #1530
     ann_id = 1
     dataset = {"images": [], "categories": [], "annotations": []}
+    dataset["info"] = {
+        "description": "Pollen Instance Segmentation Dataset",
+        "version": "1.0",
+        "year": 2024,
+        "contributor": "",
+        "date_created": "2024-01-01"
+    }
     categories = set()
     for img_idx in range(len(ds)):
         # find better way to get target
@@ -249,11 +256,13 @@ def get_coco(root, image_set, transforms, mode="instances", use_v2=False, with_m
     if use_v2:
         from torchvision.datasets import wrap_dataset_for_transforms_v2
 
-        dataset = torchvision.datasets.CocoDetection(img_folder, ann_file, transforms=transforms)
+        dataset = torchvision.datasets.CocoDetection(
+            img_folder, ann_file, transforms=transforms)
         target_keys = ["boxes", "labels", "image_id"]
         if with_masks:
             target_keys += ["masks"]
-        dataset = wrap_dataset_for_transforms_v2(dataset, target_keys=target_keys)
+        dataset = wrap_dataset_for_transforms_v2(
+            dataset, target_keys=target_keys)
     else:
         # TODO: handle with_masks for V1?
         t = [ConvertCocoPolysToMask()]

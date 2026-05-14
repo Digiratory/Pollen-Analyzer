@@ -39,9 +39,11 @@ def segment_objects(path_to_model: str, output_dir: str, image_path: str, score_
         if scores[i] >= score_threshold:
             mask = masks[i, 0]
             box = boxes[i]
-            object_img = extract_object_by_mask(mask, image, mask_threshold, box)
+            object_img = extract_object_by_mask(
+                mask, image, mask_threshold, box)
 
-            output_path = os.path.join(output_dir, f"{name.split('.')[0]}_{i}.png")
+            output_path = os.path.join(
+                output_dir, f"{name.split('.')[0]}_{i}.png")
             object_img.save(output_path)
 
 
@@ -50,8 +52,10 @@ def extract_object_by_mask(mask: np.array, image: np.array, mask_thershold=0.5, 
         masks = np.array([mask])
         box = masks_to_boxes(torch.from_numpy(masks))[0]
 
-    extracted_obj = cv2.bitwise_and(image, image, mask=(mask > mask_thershold if mask_thershold else mask).astype(np.uint8))
-    extracted_obj = extracted_obj[int(box[1]):int(box[3]), int(box[0]):int(box[2])]
+    extracted_obj = cv2.bitwise_and(image, image, mask=(
+        mask > mask_thershold if mask_thershold else mask).astype(np.uint8))
+    extracted_obj = extracted_obj[int(box[1]):int(
+        box[3]), int(box[0]):int(box[2])]
     extracted_obj = clean_background(extracted_obj)
 
     return Image.fromarray(extracted_obj)
@@ -75,18 +79,19 @@ def cvatParse(path_to_xml: str) -> dict:
 
                 mask_array = np.array(mask)
                 obj.update({'mask': mask_array})
-                obj.update({'specie': ann.attributes.get('Specie', 'Unknown')})  
+                obj.update({'specie': ann.attributes.get('Specie', 'Unknown')})
 
             content.append(obj)
-        
+
         image_name = item.id.split('/')[1]
         namespace.update({image_name: content})
-    
+
     return namespace
 
 
 def generate_samples(save_dir, amount):
-    dataset = AugmentImageDataset(pollen_dir, noise_dir, back_usages=10, objects_per_image=(1, 5), transform=get_transform(False),transform_object=get_transform_object())
+    dataset = AugmentImageDataset(pollen_dir, noise_dir, back_usages=10, objects_per_image=(
+        1, 5), transform=get_transform(False), transform_object=get_transform_object())
     idx = 0
     for img, _ in dataset:
         img = F.to_pil_image(img)
@@ -94,7 +99,8 @@ def generate_samples(save_dir, amount):
         idx += 1
         if idx == amount:
             break
-    
+
+
 if __name__ == '__main__':
     path_to_model = 'models/InSegModel_fb'
     input_dir = 'input'
@@ -105,8 +111,8 @@ if __name__ == '__main__':
 
     for name in os.listdir(input_dir):
         image_path = os.path.join(input_dir, name)
-        
+
         score_threshold = 0.9
         mask_threshold = 0.75
-        segment_objects(path_to_model, output_dir, image_path, score_threshold, mask_threshold, name)
-        
+        segment_objects(path_to_model, output_dir, image_path,
+                        score_threshold, mask_threshold, name)
