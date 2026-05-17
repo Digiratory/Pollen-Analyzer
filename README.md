@@ -11,13 +11,6 @@ pip install -r requirements_torch.txt
 
 ## Dataset
 
-The used dataset as well as supplementary materials are accessible via the following link: https://drive.digiratory.ru/d/s/122WchtNRUG2KFmShlkGZzOlaHWEAbev/eHzBJaE3_4FtRWfRNGyusI6huqKEKQ-V-Ub_gRBvwBww
-
+The used dataset as well as supplementary materials are accessible via the following link: <https://doi.org/10.6084/m9.figshare.32147599>
 
 ## Reference
-
-
-
-
-
-
